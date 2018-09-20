@@ -1,0 +1,41 @@
+
+<form action="/" method="POST">
+    <input type="text" placeholder="Enter a number" id="genNumber" name="genNumber" autocomplete="off">
+
+    <div style="width:40%; margin-left: auto; margin-right: auto;">
+            <table style="width:100%; margin-top: 4%; margin-bottom: 4%; text-align:center;">
+                <tbody>
+                    <tr>
+                        <tbody>
+                            <td>
+                                <label for="paras">words</label>
+                            </td>
+
+                            <td>
+                                <input type="radio" style="width: 20px" name="type" value="words" id="words">
+                            </td>
+                            
+                            <td>
+                                <label for="words">sentences</label>
+                            </td>
+                            
+                            <td>
+                                <input type="radio" style="width: 20px" name="type" value="sentences" id="bytes" checked="checked">
+                            </td>
+
+                            <td>
+                                <label for="bytes">paragraphs</label>
+                            </td>
+                            
+                            <td>
+                                <input type="radio" style="width: 20px" name="type" value="paragraphs" id="lists">
+                            </td>
+                            
+                        </tbody>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+    
+    <input type="submit" value="Generate" class="button">
+</form>
